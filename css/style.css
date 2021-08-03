@@ -972,6 +972,10 @@ h2.style{
    left: 0;
    right: 0;
    z-index: -1; }
+   .feature-3 .grid-column{
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 20px;
+   }
  .feature-3 .middle-section {
    display: grid; }
  .feature-3 .three-grids-columns {
