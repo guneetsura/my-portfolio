@@ -13,6 +13,24 @@
 <![endif]-->
 <link href='http://fonts.googleapis.com/css?family=Kreon:300,400,700' rel='stylesheet' type='text/css'>
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- start plugin -->
+<script>
+	$(function() {
+		var pull 		= $('#pull');
+			menu 		= $('nav ul');
+			menuHeight	= menu.height();
+		$(pull).on('click', function(e) {
+			e.preventDefault();
+			menu.slideToggle();
+		});
+		$(window).resize(function(){
+			var w = $(window).width();
+			if(w > 320 && menu.is(':hidden')) {
+				menu.removeAttr('style');
+			}
+		});
+	});
+</script>
 <!----font-Awesome----->
    	<link rel="stylesheet" href="fonts/css/font-awesome.min.css">
 <!----font-Awesome----->
