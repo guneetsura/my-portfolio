@@ -103,7 +103,7 @@ nav a#pull {
 
 /* start about us */
 .main_bg{
-   background: url(../images/portfolio_blur.jpg) no-repeat center;
+   background: url(../images/ed_blur.jpg) no-repeat center;
    background-size: cover;
    -webkit-background-size: cover;
    -moz-background-size: cover;
@@ -952,7 +952,7 @@ h2.style{
  
  /* Education */
  .ed {
-   background: url(../images/ed_blur.jpg) no-repeat center;
+   background: url(../images/portfilio_blur.jpg) no-repeat center;
    background-size: cover;
    -webkit-background-size: cover;
    -moz-background-size: cover;
