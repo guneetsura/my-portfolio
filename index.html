@@ -5,15 +5,17 @@
 <!-- Bootstrap -->
 <link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
  <!--[if lt IE 9]>
      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <link href='http://fonts.googleapis.com/css?family=Kreon:300,400,700' rel='stylesheet' type='text/css'>
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<!-- start plugin -->
 <script>
 	$(function() {
 		var pull 		= $('#pull');
@@ -36,7 +38,8 @@
 <!----font-Awesome----->
 </head>
 <body>
-<div class="header_bg" id="home"><!-- start header -->
+<!-- start header -->
+<div class="header_bg" id="home">
 <div class="container">
 	<div class="row header text-center">
 		<nav class="top-nav" id="navbar">
@@ -46,13 +49,15 @@
 			    <li class="page-scroll"><a href="#education">Education</a></li>
 				<li class="page-scroll"><a href="#contact">Contact</a></li>
 			</ul>
-			<a href="#navbar" id="pull"><img src="images/nav-icon.png" title="menu"></a>
+			<a href="#" id="pull"><img src="images/nav-icon.png" title="menu"></a>
 		</nav>
 		<div class="clearfix"></div>
 	</div>
 </div>
 </div>
-<div class="main_bg"  id="about"><!-- start about us -->
+<!-- end header -->
+<section id="about">
+<div class="main_bg"><!-- start about us -->
 <div class="container">
 	<div class="row about">
 		<div class="col-md-3 about_img">
@@ -66,6 +71,7 @@
 	</div>
 </div>
 </div>
+</section><!-- end about -->
 <!-- start skills -->
 <section class="skill " id="Skills">
 	<div class="main row skills-bars py-5">
@@ -125,23 +131,23 @@
 			<div class="main row">
 				  <h2 class="style heading text-center">Education</h2>
 			<div class="main row feature-3 middle-section grid-column text-center mt-5 pt-3">
-				<div class="three-grids-columns col-md-4 images_1_of_4">
+				<div class="three-grids-columns col-md-4 col-sm-12 images_1_of_4">
 		  <i class="fas fa-b" style="font-size:36px"></i>
 					<h3>Secondary</h3>
 					<h4>New Horizon Scholar's School, Navi Mumbai</h4>
 					<p>Batch: 2016-2017</p>
 				</div>
-				<div class="three-grids-columns col-md-4 images_1_of_4">
+				<div class="three-grids-columns col-md-4 col-sm-12 images_1_of_4">
 					<h3>High School</h3>
 					<h4>New Horizon Scholars School, Thane</h4>
 					<p>Batch: 2017-2019</p>
 					
 				</div>
-				<div class="three-grids-columns col-md-4 images_1_of_4">	
+				<div class="three-grids-columns col-md-4 col-sm-12 images_1_of_4">	
 					<h3>Under Graduate</h3>
 					<h4>KJ Somaiya College of Engineering</h4>
 					<p>Batch: 2020-2024</p>
-					
+				</div>	
 				</div>
 			</div>
 		</div>
