@@ -24,6 +24,7 @@ body {
    overflow: hidden;
    background-color: #323232;
    padding: 10px;
+   margin-left: 35%;
  }
  
  .topnav a {
