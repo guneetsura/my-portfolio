@@ -15,6 +15,11 @@ body {
    background:#ffffff;
    font-size: 100%;
 }
+html,body {
+   margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
 /* start header */
 .header_bg{
    background: #323232;
@@ -157,15 +162,6 @@ nav a#pull {
 /* start about us */
 .main_bg{
    background: url(../images/ed_blur.jpg) no-repeat center center fixed;
-   /* background-size: cover;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   -ms-background-size: cover;
-   padding: 10px 10px;
-   position: relative;
-   z-index: 0; 
-   height: 100%; */
     background-size: contain;
     -webkit-background-size: cover;
    -moz-background-size: cover;
@@ -176,7 +172,9 @@ nav a#pull {
     z-index: 0;
     display: grid;
     align-items: center;
-}
+    overflow: hidden;
+   }
+
 .about{
    margin:20px 0;
    padding: 2% 2%;
@@ -1013,7 +1011,7 @@ h2.style{
  
  /* Education */
  .ed {
-   background: url(../images/portfolio_blur.jpg) no-repeat center;
+   background: url(../images/portfolio_blur.jpg) no-repeat center center fixed;
    background-size: contain;
     -webkit-background-size: cover;
    -moz-background-size: cover;
@@ -1025,7 +1023,7 @@ h2.style{
     display: grid;
     align-items: center;
  }
- 
+
  .feature-3 .top-bottom:before {
    content: "";
    background: rgba(7, 10, 12, 0.72);
