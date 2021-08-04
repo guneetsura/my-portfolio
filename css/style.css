@@ -24,7 +24,7 @@ body {
    overflow: hidden;
    background-color: #323232;
    padding: 10px;
-   margin-left: 33%;
+   margin-left: 33%; /* Added */
  }
  
  .topnav a {
@@ -156,16 +156,26 @@ nav a#pull {
 
 /* start about us */
 .main_bg{
-   background: url(../images/ed_blur.jpg) no-repeat center;
-   background-size: contain;
+   background: url(../images/ed_blur.jpg) no-repeat center center fixed;
+   /* background-size: cover;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
    -ms-background-size: cover;
    padding: 10px 10px;
-   background-attachment: contain;
    position: relative;
    z-index: 0; 
+   height: 100%; */
+    background-size: contain;
+    -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   -ms-background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    z-index: 0;
+    display: grid;
+    align-items: center;
 }
 .about{
    margin:20px 0;
@@ -1005,14 +1015,15 @@ h2.style{
  .ed {
    background: url(../images/portfolio_blur.jpg) no-repeat center;
    background-size: contain;
-   -webkit-background-size: cover;
+    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
    -ms-background-size: cover;
-   padding: 10px 10px;
-   background-attachment: contain;
-   position: relative;
-   z-index: 0; 
+    min-height: 100vh;
+    position: relative;
+    z-index: 0;
+    display: grid;
+    align-items: center;
  }
  
  .feature-3 .top-bottom:before {
