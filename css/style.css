@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 @font-face {
 	font-family: 'open_sansregular';
 	 src:url('../fonts/OpenSans-Regular-webfont.ttf') format('truetype');
@@ -11,7 +13,7 @@ html {
    scroll-behavior: smooth;
  }
 body {
-   font-family: 'open_sansregular';
+   font-family: 'Varela Round', sans-serif;
    background:#ffffff;
    font-size: 100%;
 }
@@ -186,20 +188,34 @@ nav a#pull {
 }
 .about_text h3{
    font-family: 'Kreon', serif;
-   font-size: 28px;
+   font-size: 32px;
+   font-weight: bolder;
    color: #ffffff;
    text-transform: capitalize;
+   text-shadow:
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
 }
 .about_text h4{
    font-family: 'Kreon', serif;
-   font-size: 18px;
-   color: #ffffff;
+   font-size: 20px;
+   color: #fffb00;
    text-transform: capitalize;
+   font-weight: bold;
+   text-shadow:
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 9px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
 }
 .about_text p{
-   font-size: 16px;
+   font-size: 18px;
    color: #ffffff;
    line-height: 1.8em;
+         
+            
 }
 /* start soc_icons */
 .soc_icons ul{
