@@ -11,7 +11,7 @@ const Experience = () => {
         <div className="experience__frontend">
           <h3>Front-end Development</h3>
           <div className="experience__content">
-          <article className="experience__details">
+            <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>HTML</h4>
             </article>
@@ -41,10 +41,11 @@ const Experience = () => {
             </article>
           </div>
         </div>
+
         <div className="experience__backend">
           <h3>Back-end Development</h3>
           <div className="experience__content">
-          <article className="experience__details">
+            <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>Ruby</h4>
             </article>
@@ -70,9 +71,36 @@ const Experience = () => {
             </article>
           </div>
         </div>
+
+        <div className="experience__frontend">
+          <h3>Soft Skills</h3>
+          <div className="experience__content">
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>Public Speaking</h4>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>Event Management</h4>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>Public Relations</h4>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>Time Management</h4>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>Digital Marketting</h4>
+            </article>
+            
+          </div>
+        </div>
       </div>
     </section>
-  )
+  );
 }
 
 export default Experience
